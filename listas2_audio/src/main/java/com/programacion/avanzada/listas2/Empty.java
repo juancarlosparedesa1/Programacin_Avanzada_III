@@ -10,7 +10,12 @@ public class Empty implements Lista {
     }
 
     @Override
-    public List tail() {
+    public Lista tail() {
         return null;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
     }
 }

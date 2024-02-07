@@ -1,7 +1,5 @@
 package com.programacion.avanzada.listas;
 
-import com.programacion.avanzada.listas.Lista;
-
 class Empty<T> implements Lista<T> {
 
     @Override
